@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="w-screen bg-gray-900 text-white py-10">
     <div className="container mx-auto flex flex-col items-center justify-center gap-4 px-4 md:flex-row">
       <p className="text-center text-sm font-light md:text-left">
-        ©CkTechHub 2024.  All rights reserved
+        ©CkTechHub 2025.  All rights reserved
       </p>
         <div className="flex justify-center gap-4  md:justify-start">
           {/* {socialLinks.map((link, index) => (
