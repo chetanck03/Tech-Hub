@@ -66,7 +66,7 @@ const Contact = () => {
           <p className="text-xs uppercase font-semibold tracking-widest text-gray-400">Ck Tech Hub</p>
 
           <AnimatedTitle
-            title="Let’s b<u>uild</u> the <br /> future of <br /> IT & b<l>lockchain</l> together."
+            title=" F<u>ull </u>Stack <br /> Expertise ,<br />B<u>lockchain </u>Innovation</u>."
             className="special-font text-4xl sm:text-5xl md:text-6xl w-full font-extrabold leading-tight tracking-tight"
           />
           <p className="text-xs uppercase font-semibold tracking-widest text-gray-400">Contact Form</p>
