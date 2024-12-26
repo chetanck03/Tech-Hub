@@ -109,11 +109,11 @@ const FloatingImage = () => {
             At CK Tech Hub, we craft scalable websites, mobile apps, custom software, and blockchain solutions—delivering secure, tailored innovations for businesses globally.
             </p>
 
-            <Button
+            {/* <Button
               id="realm-btn"
               title="discover"
               containerClass="mt-5"
-            />
+            /> */}
           </div>
         </div>
       </div>

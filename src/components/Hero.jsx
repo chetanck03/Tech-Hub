@@ -157,13 +157,14 @@ const Hero = () => {
               High-quality IT solutions tailored to your needs—websites, mobile apps, custom software, and seamless support. We deliver fast, scalable, and user-friendly solutions to help you achieve your goals.
             </p>
 
-
+            <a href="#contact">
             <Button
               id="watch-trailer"
               title="Contact"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
+            </a>
           </div>
         </div>
       </div>
