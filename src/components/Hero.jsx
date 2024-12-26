@@ -82,6 +82,13 @@ const Hero = () => {
 
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
+  // Smooth scroll function for the anchor link
+  const scrollToContact = (e) => {
+    e.preventDefault();
+    const contactSection = document.getElementById("contact");
+    contactSection?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
@@ -140,9 +147,6 @@ const Hero = () => {
           />
         </div>
 
-
-
-
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
@@ -157,20 +161,20 @@ const Hero = () => {
               High-quality IT solutions tailored to your needs—websites, mobile apps, custom software, and seamless support. We deliver fast, scalable, and user-friendly solutions to help you achieve your goals.
             </p>
 
-            <a href="#contact">
-            <Button
-              id="watch-trailer"
-              title="Contact"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            <a href="#contact" onClick={scrollToContact}>
+              <Button
+                id="watch-trailer"
+                title="Contact"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-yellow-300 flex-center gap-1"
+              />
             </a>
           </div>
         </div>
       </div>
 
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-       ck tech hub
+        ck tech hub
       </h1>
     </div>
   );
