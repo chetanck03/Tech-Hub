@@ -162,7 +162,7 @@ const Hero = () => {
             </p>
 
             <a href="#contact" onClick={scrollToContact}>
-              <Button
+              <Button onClick={scrollToContact}
                 id="watch-trailer"
                 title="Contact"
                 leftIcon={<TiLocationArrow />}
